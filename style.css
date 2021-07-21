@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
+body {
+    background-image: linear-gradient(
+      to right top,
+      #0044c4,
+      #af24ad,
+      #f1057e,
+      #ff5049,
+      #ff9000
+    );
+  }
+.pokemon {
+    
+  border-radius: 10px;
+  margin: 20px;
+  background-image: linear-gradient(
+    to right,
+    #003d98,
+    #0076cd,
+    #00a6c1,
+    #00cf7e,
+    #a8eb12
+  );
+  padding: 2%;
+  color: white;
+  padding-left: 10%;
+}

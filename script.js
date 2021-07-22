@@ -20,6 +20,7 @@ async function createCard(pokemon) {
   const pokeInnerHTML = `
   <div>
   <h2>Name :${pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}</h2> <br>
+  <p>count: ${pokemon.id}</p> <br>
   Abilities <ul>
   <li>${pokemon.abilities[0].ability.name}</li>
   <li>${pokemon.abilities[1].ability.name}</li>

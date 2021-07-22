@@ -13,7 +13,7 @@ const getPokemon = async (id) => {
   const pokemon = await res.json();
   createCard(pokemon);
 };
-function createCard(pokemon) {
+async function createCard(pokemon) {
   const pokemonEl = document.createElement("div");
   pokemonEl.className = "pokemon";
   var abil = pokemon.abilities[0].ability;
